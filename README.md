@@ -10,4 +10,4 @@ cd my-template
 chmod +x setup.sh
 ./setup.sh
 ```
-### Do NOT clone THIS repository.
+### Do NOT clone THIS repository
