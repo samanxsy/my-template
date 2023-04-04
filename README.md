@@ -9,5 +9,6 @@ just make sure you have python installed
 ```
 git clone https://github.com/samanxsy/my-template.git
 chmod +x setup.sh
+cd my-template
 ./setup.sh
 ```
