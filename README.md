@@ -8,7 +8,7 @@ you can also open a terminal on your local machine (linux/macOS), run the comman
 just make sure you have python installed
 ```
 git clone https://github.com/samanxsy/my-template.git
-chmod +x setup.sh
 cd my-template
+chmod +x setup.sh
 ./setup.sh
 ```
