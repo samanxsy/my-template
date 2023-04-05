@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo "*** LETS GET STARTED ***"
 sleep 1
 # Check if virtualenv is installed
