@@ -7,7 +7,7 @@ just make sure you have python installed
 ```
 git clone https://github.com/<your-user-name>/<repo-name>.git
 cd <repo-name>
-chmod +x setup.sh
-./setup.sh
+chmod +x devenv-setup.sh
+./devenv-setup.sh
 ```
 ### Do NOT clone THIS repository
