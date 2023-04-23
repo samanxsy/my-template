@@ -11,3 +11,4 @@ chmod +x devenv-setup.sh
 ./devenv-setup.sh
 ```
 ### Do NOT clone THIS repository
+use it as a template to create your own, then clone your own repo and start working. Cheers.
