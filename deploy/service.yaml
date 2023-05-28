@@ -3,6 +3,7 @@ kind: Service
 metadata:
   name: <the-app-name>
 spec:
+  type: LoadBalancer # Change the service in case of different needs
   selector:
     app: <the-app-name>
   ports:

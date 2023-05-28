@@ -3,9 +3,16 @@ kind: Deployment
 metadata:
   name: <the-app-name>
 spec:
+  replicas: <number-of-pods>
   selector:
     matchLabels:
       app: <the-app-name>
+  minReadySeconds: 10
+  strategy:
+    type: RollingUpdate
+    rollingUpdate:
+      maxUnavailable: 1
+      maxSurge: 1
   template:
     metadata:
       labels:
